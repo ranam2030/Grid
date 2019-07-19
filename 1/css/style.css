@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+}
+mark{
+	background-color: black;
+	color: green;
+	font-size: 12px;
+	text-align: center;
+}
+nav{
+	float: left;
+	margin: 5px;
+}
+nav li{
+	padding-top: 10px;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 50px;
+	text-align: center;
+}
+nav li a{
+	font-size: 18px;
+	text-decoration: none;
+}
+nav li a:hover{
+	color: green;
+	border-bottom: 1px solid green;
+}
+.content{
+	margin-top: 50px;
+}
+.content h1{
+	text-align: center;
+}
+.content p{
+	text-align: center;
+}
+.head{
+    text-align: center;
+    margin-top: 80px;
+}
+.content{
+    margin-left: 200px;
+    margin-right: 200px;
+	display: grid;
+    grid-template-columns:repeat(15,1fr);
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 25px;
+    grid-template-areas: 
+        "menu menu menu one one one one two two two two three three three three"
+        "menu menu menu four four four four five five five five six six six six"
+        "menu menu menu saven saven saven saven eight eight eight eight nine nine nine nine"
+        "menu menu menu ten ten ten ten eleven eleven eleven eleven twelve twelve twelve twelve";
+}
+.menu{
+    grid-area: menu;
+}
+.menu li{
+    list-style: none;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    font-size: 21px;
+    color: green;
+    font-style: bold;
+}
+.one{
+    background: url(../image/1.jpg);
+    grid-area: one;
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    background: url(../image/2.jpg);
+    grid-area: two;
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    background: url(../image/3.jpg);
+    grid-area: three;
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    background: url(../image/4.jpg);
+    grid-area: four;
+    background-position: center;
+    background-size: cover;
+}
+.five{
+    background: url(../image/5.jpg);
+    grid-area: five;
+    background-position: center;
+    background-size: cover;
+}
+.six{
+    background: url(../image/6.jpg);
+    grid-area: six;
+    background-position: center;
+    background-size: cover;
+}
+.saven{
+    background: url(../image/7.jpg);
+    grid-area: saven;
+    background-position: center;
+    background-size: cover;
+}
+.eight{
+    background: url(../image/8.jpg);
+    grid-area: eight;
+    background-position: center;
+    background-size: cover;
+}
+.nine{
+    background: url(../image/9.jpg);
+    grid-area: nine;
+    background-position: center;
+    background-size: cover;
+}
+.ten{
+    background: url(../image/10.jpg);
+    grid-area: ten;
+    background-position: center;
+    background-size: cover;
+}
+.eleven{
+    background: url(../image/11.jpg);
+    grid-area: eleven;
+    background-position: center;
+    background-size: cover;
+}
+.twelve{
+    background: url(../image/1.jpg);
+    grid-area: twelve;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+}
+.leftside{
+    margin-top: 15px;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.centerside{
+    margin-top: 15px;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.rightside{
+    text-align: center;
+    margin-top: 15px;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}

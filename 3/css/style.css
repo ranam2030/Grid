@@ -1,0 +1,75 @@
+.container{
+
+}
+.bootstrap{
+    width: 100%;
+    height: 45%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto auto;
+    grid-gap: 8px;
+    justify-content: center;
+}
+.p{
+    margin: 5px;
+    padding: 5px;
+}
+.col1{
+    background-color: gainsboro;
+}
+
+.wrapper{
+    width: 100%;
+    height: 55%;
+    text-align: center;
+}
+.h1{
+    color: white;
+}
+.img{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+.one{
+    background-image: url(../image/1.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+.two{
+    background-image: url(../image/2.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+}
+.three{
+    background-image: url(../image/3.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+}
+.four{
+    background-image: url(../image/4.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+    
+}
+.five{
+    background-image: url(../image/5.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+}
+.six{
+    background-image: url(../image/6.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+}
